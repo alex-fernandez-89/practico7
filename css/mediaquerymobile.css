@@ -1,0 +1,431 @@
+@media (min-width: 320px) and (max-width: 575px) {
+
+
+body{
+    
+    background-image: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: normal;
+    background-attachment: fixed;
+    background-color: red;
+    
+    font-size: 10px;
+    
+  
+}
+@font-face {
+    font-family: "chinese";
+    src: url("./fuente/chinese.ttf")
+    format('truetype');
+}
+p{
+    font-family: 'Hubballi', cursive;
+}
+
+/*header*/
+header{
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 99%;
+
+}
+.argentina{
+    width: 50vw;
+    height: 25vh;
+}
+.historia{
+    width: 85vw;
+    height: 60vh;
+   
+}
+
+/*nav*/
+nav{
+    
+    box-sizing: border-box;
+    width: 99%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 25%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+.navcontainer{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0%;
+    padding: 0%;
+   
+}
+
+nav a{
+  
+  
+    box-sizing: border-box;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border: 1px rgb(255, 255, 255) solid;
+    width: 100%;
+    font-size: 2em;
+    padding: 1%;
+    margin: 0%;
+}
+nav a:hover{
+    color: rgb(255, 0, 0);
+    background-color: rgb(0, 0, 0);
+    transform: scale(1);
+    box-sizing: border-box;
+    border-bottom: 4px yellow solid;
+    transition: 0.3s;
+  
+}
+/*titulo*/
+#titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 99%;
+    
+    box-sizing: border-box;
+}
+#titulo h1{
+    text-align: center;
+    font-size: 8em;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    color: rgb(186, 167, 167);
+    text-shadow: black 4px 4px 10px ;
+    font-family: "chinese";
+}
+#titulo h1:hover{
+    transform: scale(1);
+    transition: 0.0s;
+}
+#titulo .image1{
+    width: 80vw;
+    height: 30vh;
+}
+#titulo .image1:hover{
+    transform: scale(1);
+}
+
+/*main*/
+
+main{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    width: 100%;
+    
+    border-top: none;
+    margin-left: 0%;
+}
+/*section*/
+
+
+
+section{
+    box-sizing: border-box;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    
+    
+    border-right: none;
+    font-size: 15px;
+}
+
+section .origen{
+    color: rgba(251, 255, 0, 0.658);
+    text-decoration-color: rgb(255, 205, 27);
+    text-decoration:  underline;
+    display: flex;
+    justify-content: center;
+    font-family: 'Shrikhand', cursive;
+    font-size: 4em;
+    margin-top: 0%;
+    width: 100%;
+   
+   
+}
+section .origen:hover{
+    transform: scale(1.1);
+}
+section p{
+    display: flex;
+    margin: 0% 0% 0% 0%;
+    margin-right: 0%;
+    
+    flex-wrap: wrap;
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    width: 100%;
+   
+   
+}
+
+section .image2{
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    margin-right: 1%;
+    margin-left: 7%;
+    width: 80vw;
+    height: 30vh;
+    
+}
+
+section .image2:hover{
+    transform: scale(1);
+}
+.iframe2{
+    margin-left: 7%;
+    width: 80vw;
+    height: 30vh;
+    
+}
+.audio{
+    margin-top: 0%;
+    width: 80vw;
+    height: 30vh;
+   
+}
+.iframe1{
+    width: 80vw;
+    height: 30vh;
+    margin-left: 7%;
+}
+
+/*aside*/
+aside{
+    box-sizing: border-box;
+    background-color: transparent;
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    align-items:flex-start;
+    
+    flex-wrap: wrap;
+    width: 100%;
+    
+    padding: 3%;
+    
+    font-size: 15px;
+}
+
+aside h4{
+    color: rgb(60, 255, 0);
+    
+    font-size: 1.6em;
+    text-decoration: underline;
+}
+
+
+aside h3{
+    color: rgb(0, 255, 195);
+    font-size: 1.8em;
+    text-decoration: underline;
+    text-align:  center;
+    margin-left: 10%;
+}
+aside h2{
+    color: rgb(255, 247, 0);
+    font-size: 2.2em;
+    text-decoration: underline;
+    text-align:  center;
+    margin-left: 10%;
+}
+aside p{
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    width: 100%;
+    margin-left: 6%;
+}
+aside ul{
+    color: bisque;
+    text-align: left;
+    font-size: 1.3em;
+    width: 100%;
+
+   
+}
+aside ol{
+    color: bisque;
+    text-align: left;
+    font-size: 1.3em;
+    width: 100%;
+}
+
+.patrocinador{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10%;
+    padding: 2%;
+}
+.patrocinador img{
+    width: 70vw;
+    height: 10vh;
+}
+
+/*footer*/
+footer{
+    
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    flex-wrap: wrap;
+    justify-items: auto;
+    flex-direction: row;
+    width: 99%;
+   
+}
+.face{
+    width: 10vw;
+    height: 7vh;
+    border-radius: 50%;
+    background-color: white;
+    margin: 20px;
+}
+.face:hover{
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+
+.twitter{
+    width: 10vw;
+    height: 7vh;
+    border-radius: 50%;
+    background-color: white;
+    margin: 20px;
+}
+.twitter:hover{
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+
+.insta{
+    width: 10vw;
+    height: 7vh;
+    border-radius: 50%;
+    background-color: white;
+    margin: 25px;
+}
+.insta:hover{
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+
+.container-boton{
+    background-color: #383938;
+    
+    position: fixed;
+    z-index: 999;
+    border-radius: 50%;
+    bottom: 10vw;
+    right: 1vh;
+    padding: 15px;
+    transition: ease 0.3s;
+    animation: none
+}
+
+.container-boton:hover{
+    transform: none;
+    transition: none;
+}
+
+.boton{
+    width: 8vw;
+    transition: ease 1s;
+}
+.flecha{
+    position: fixed;
+    height: auto;
+    width: 8vw;
+    border: 3px white solid;
+    bottom: 20px;
+    left: 5px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 25px;
+}
+.flecha:hover{
+    transform: scale(1);
+    transition: none;
+}
+@keyframes efecto{
+    0%{
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+    }
+    100%{
+        box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+    }
+}
+    
+/*contacto*/
+.navcontainercontacto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    justify-content: center;
+    padding: 2%;
+}
+.pag2{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    border-right: none;
+    width: 100%;
+    color: white;
+    font-size: 2em;
+    border-radius: 10%;
+    height: 25%;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    
+    
+}
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form .xx{
+    background-color: rgb(255, 255, 255);
+    color: white;
+    border-radius: 30%;
+    width: 25%;
+    font-size: 2.5em;
+}
+form .xx:hover{
+    transform: scale(1.1);
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-bottom: 4px green solid;
+}
+}

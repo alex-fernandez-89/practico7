@@ -1,0 +1,429 @@
+
+/*------tablet------*/
+@media (min-width: 576px) and (max-width: 991px)  {
+    body{
+        background-color: rgb(0, 0, 0);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 98%;
+        font-size: 10px;
+    }
+    @font-face {
+        font-family: "chinese";
+        src: url("./fuente/chinese.ttf")
+        format('truetype');
+    }
+    p{
+        font-family: 'Hubballi', cursive;
+    }
+    /*header*/
+    header{
+        display: flex;
+        width: 100%;
+        height: 0%;
+        
+        
+
+    }
+    .argentina{
+        width: 60vw;
+        height: 25vh;
+    }
+    .historia{
+        width: 95vw;
+        height: 60vh;
+        margin: 0%;
+        padding: 0%;
+   
+    }
+    /*nav*/
+    nav{
+    
+        box-sizing: border-box;
+        width: 99%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 0%;
+        flex-wrap: wrap;
+        flex-direction: column;
+    
+    }
+    .navcontainer{
+        display: flex;
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+        flex-wrap: wrap;
+        justify-content: center;
+
+       
+    }
+    
+    nav a{
+      
+      
+        box-sizing: border-box;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        background-color: rgb(255, 0, 0);
+        width: 65%;
+        font-size: 2.8em;
+        padding: 1%;
+        margin: 1%;
+    }
+    nav a:hover{
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+        transform: scale(1);
+        box-sizing: border-box;
+        border-bottom: 4px rgb(0, 0, 0) solid;
+        transition: 0.3s;
+      
+    }
+   
+    
+/*titulo*/
+    #titulo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 98%;
+    
+        box-sizing: border-box;
+}
+    #titulo h1{
+        width: 90%;
+        font-size: 13em;
+        text-decoration: underline;
+        text-decoration-color: rgb(173, 173, 113);
+        color: rgb(243, 232, 24);
+        text-shadow: rgb(255, 255, 255) 4px 4px 70px ;
+        font-family: "chinese";
+        padding: 0%;
+        margin: 1%;
+        margin-right: 2%;
+        margin-left: 0%;
+        text-align: center;
+}
+   
+
+    #titulo .image1{
+        width: 99vw;
+        height: 50vh;
+        background-color: transparent;
+        border: 0px transparent solid;
+}
+
+
+/*main*/
+
+    main{
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    
+        width: 100%;
+        background-color: transparent;
+        border: 0px transparent solid;
+        
+    
+}
+/*section*/
+
+
+
+    section{
+        box-sizing: border-box;
+        background-color: transparent;
+        border: 0px transparent solid;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 0%;
+        
+    }
+
+    section .origen{
+        color: rgb(229, 255, 0);
+        text-decoration-color: rgb(110, 249, 24);
+        text-shadow: black 2px 2px 10px;
+        text-decoration:  underline;
+        display: flex;
+        justify-content: center;
+        font-family: 'Shrikhand', cursive;
+        font-size: 5em;
+        margin-top: 0%;
+        width: 100%;
+   
+   
+    }
+    
+    section p{
+        display: flex;
+        text-align: center; 
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1rem;
+        flex-wrap: wrap;
+        color: rgb(255, 255, 255);
+        font-size: 2.6em;
+        width: 98%;
+        padding: 0%;
+        box-sizing: border-box;
+   
+    }
+
+    section .image2{
+        
+        margin-left: 4%;
+        width: 90vw;
+        height: 40vh;
+    
+    }
+    .epi{
+        color: gray;
+        margin-left: 5%;
+    }
+
+   
+    .iframe2{
+    
+        margin-left: 4%;
+        width: 90vw;
+        height: 40vh;
+    
+    }
+    .audio{
+        margin-left: 4%;
+        margin-top: 0%;
+        width: 90vw;
+        height: 25vh;
+   
+    }
+    .iframe1{
+        margin-left: 4%;
+        width: 90vw;
+        height: 40vh;
+   
+}
+
+/*aside*/
+aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 15px;
+    background-color: transparent;
+    border: 0px transparent solid;
+}
+
+aside h4{
+    color: rgb(149, 246, 246);
+    text-decoration-color: rgb(255, 255, 255);
+    font-size: 1.8em;
+    
+}
+
+
+aside h3{
+    color: rgb(255, 244, 97);
+    text-decoration-color: rgb(255, 255, 255);
+    font-size: 2.7em;
+    margin-left: 10%;
+    text-align:  center;
+    
+}
+aside h2{
+    color: rgb(157, 235, 162);
+    text-decoration-color: rgb(255, 255, 255);
+    font-size: 2.9em;
+    margin-left: 10%;
+    text-align:  center;
+   
+}
+aside p{
+        display: flex;
+        text-align: center; 
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1rem;
+        flex-wrap: wrap;
+        color: rgb(255, 255, 255);
+        font-size: 2.6em;
+        width: 100%;
+        padding: 0%;
+        box-sizing: border-box;
+        margin-left: 4%;
+}
+aside ul{
+    color: moccasin;
+    text-align: left;
+    font-size: 1.8em;
+   
+}
+aside ol{
+    color: moccasin;
+    text-align: left;
+    font-size: 1.8em;
+    
+}
+.patrocinador{
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10%;
+    padding: 2%;
+}
+.patrocinador img{
+    width: 70vw;
+    height: 10vh;
+}
+/*footer*/
+footer{
+    
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    flex-wrap: wrap;
+    justify-items: auto;
+    flex-direction: row;
+    width: 99%;
+   
+}
+.face{
+    width: 7vw;
+    height: 7vh;
+    border-radius: 50%;
+    background-color: white;
+    margin: 20px;
+}
+.face:hover{
+    transform: scale(1.1);
+    transition: 0.6s;
+    background-color: aqua;
+}
+
+.twitter{
+    width: 7vw;
+    height: 7vh;
+    border-radius: 50%;
+    background-color: white;
+    margin: 20px;
+}
+.twitter:hover{
+    transform: scale(1.1);
+    transition: 0.6s;
+    background-color: aqua; 
+}
+
+.insta{
+    width: 7vw;
+    height: 7vh;
+    border-radius: 50%;
+    background-color: white;
+    margin: 25px;
+}
+.insta:hover{
+    transform: scale(1.1);
+    transition: 0.6s;
+    background-color: aqua;
+}
+.container-boton{
+    background-color: #383938;
+    
+    position: fixed;
+    z-index: 999;
+    border-radius: 50%;
+    bottom: 20px;
+    right: 25px;
+    padding: 15px;
+    transition: ease 0.3s;
+    animation: efecto 1.2s infinite;
+}
+
+.container-boton:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.boton{
+    width: 8vw;
+    transition: ease 1s;
+}
+.flecha{
+    position: fixed;
+    bottom: 20px;
+    left: 25px;
+    border: 3px white solid;
+    width: 6vw;
+    height: 6vh;
+    border-radius: 50%;
+    background-color: white;
+    margin: 25px;
+}
+.flecha:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+@keyframes efecto{
+    0%{
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+    }
+    100%{
+        box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+    }
+}
+    
+/*contacto*/
+.navcontainercontacto{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-around;
+    padding: 2%;
+}
+.pag2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: transparent; 
+    width: 50%;
+    color: white;
+    font-size: 2em;
+    
+}
+
+form{
+    background-color: transparent;
+   margin-left: 263%;
+    width: 15%;
+    
+}
+.formulario{
+   text-align: center;
+   
+}
+form .xx{
+    text-align: center;
+    width: 150%;
+    height: 25%;
+    font-size: 0.5em;
+}
+form .xx:hover{
+    transform: scale(1.1);
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-bottom: 4px green solid;
+}
+
+}
